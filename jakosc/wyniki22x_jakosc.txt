@@ -1,0 +1,11 @@
+Parametry oceny jakoœci dopasowania charakterystyki otrzymanej z estmyacji parametrów modalnych
+Parametry otrzymane dla:
+Sygna³: D:/Odczyt_LabVIEW/pomiary_022.lvm
+Zakres: 11 do 78 Hz
+Kana³y: wymuszenie- 1 odpowiedz- 2
+Bieguny z pliku: D:/ProgramPy/parametry/wyniki22x.txt
+FDAC dla inertancji [-]: 0.8827012087040262
+FDAC dla podatnoœci [-]: 0.8933756223073814
+B³ad œredniokwadratowy dla inertancji [-]: 218.83618792542163
+B³ad œrednio kwadratowy dla podatnosci [-]: 4.878468015908763e-07
+B³ad œrednioprocentowy [%]: 49.92965857136858

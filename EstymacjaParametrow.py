@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk, filedialog, messagebox
 import tkinter.font as tkFont
 import matplotlib
+from matplotlib import style
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from matplotlib.figure import Figure
 import numpy as np
@@ -9,6 +10,7 @@ from funkcje.metody import przeliczenie, okno_wykl, tichonow, WGM, nextpow2, zak
 from funkcje.wyodrebnienie import wyodrebnienie
 from funkcje.RFP import RFP
 matplotlib.use('TkAgg')
+style.use('ggplot')
 
 '''
 Program do estymacji parametrów modalnych
@@ -720,3 +722,4 @@ if __name__ == '__main__':
 
     app = Root()
     app.mainloop()
+

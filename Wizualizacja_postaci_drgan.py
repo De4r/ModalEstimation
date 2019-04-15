@@ -55,6 +55,6 @@ nodes = np.loadtxt('nodes.txt')
 model.obiekt(nodes, zapis='y', nazwa='obiekt_sam', rzut=0)
 
 #rzut=: 0,1,2,3
-f = 71.5
-mode_shape(f=f, f_tol=1, sila=3000, zapis='y', nazwazapisu=f'postacdrgan60.7-{f}', rzut=0)
+f = 14
+mode_shape(f=f, f_tol=1, sila=3000, zapis='n', nazwazapisu=f'postacdrgan60.7-{f}', rzut=0)
 #!!! trzeba ustawić scieżke do plików w funkcji mode_shape!!!
